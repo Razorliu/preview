@@ -1,0 +1,208 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+	
+div.bg
+{
+	width: 1024px;
+	height: 768px;
+	border-style: dashed;
+}
+
+div.brg {
+		position: absolute;
+	top: 0px;
+	left: 0px;
+	border: 0px ;
+	z-index: -1;
+}
+div.satellite{
+	position: absolute;
+	top: -400px;
+	left: 2000px;
+	z-index: 1;
+	
+	animation: rot 5.0s;
+	animation-fill-mode: forwards;
+	transform-origin:450px 150px;
+	animation-delay: 18s;
+}
+
+@keyframes rot {
+	0% { transform: rotate(0deg); }
+	20% { transform: translate(-1000px, 400px) rotate(-10deg); }
+	40% { transform: translate(-1000px, 400px)rotate(0deg); }
+	60% { transform: translate(-1000px, 400px) rotate(10deg); }
+	80% { transform: translate(-1000px, 400px) rotate(0deg); }
+	100% { transform: translate(-2000px, 0px) rotate(0deg); }
+}
+
+div.elephants{
+	position: absolute;
+	top: 620px;
+	left: 2200px;
+	z-index: 1;
+	animation: eleMove 5.0s;
+	animation-fill-mode: forwards;
+	animation-delay: 44s;
+	animation-timing-function: linear;
+}
+
+@keyframes eleMove {
+	0% { transform: rotate(0deg); }
+	20% { transform: translate(-1000px, 0px); }
+	40% { transform: translate(-1200px, 0px); }
+	60% { transform: translate(-1400px, 0px); }
+	80% { transform: translate(-1600px, 0px); }
+	100% { transform: translate(-3500px, 0px); }
+}
+
+div.truck{
+	position: absolute;
+	top: 765px;
+	left: 2200px;
+	z-index: 1;
+	animation: truckMove 5.0s;
+	animation-fill-mode: forwards;
+	animation-delay: 50s;
+	animation-timing-function: linear;
+}
+
+@keyframes truckMove {
+	0% { transform: rotate(0deg); }
+	20% { transform: translate(-1000px, 0px); }
+	40% { transform: translate(-1200px, 0px); }
+	60% { transform: translate(-1400px, 0px); }
+	80% { transform: translate(-1600px, 0px); }
+	100% { transform: translate(-3500px, 0px); }
+}
+
+
+@font-face {
+	font-family: ysbth;
+    src: url('fonts/youshebiaotihei.ttf');
+}
+
+
+p.text1{
+	 text-shadow: #000 1px 0 0, #000 0 1px 0, #000 -1px 0 0, #000 0 -1px 0;
+	font-family: ysbth;
+	font-size: 300%;
+	color: orange;
+	opacity:0;
+	top: 100px;
+	left: 100px;
+	position: absolute;
+	animation: textFadeIn 5s;
+	animation-delay:2s;
+	
+}
+
+@keyframes textFadeIn {
+	0% { opacity:0}
+	20% { opacity:1}
+	80% { opacity:1}
+	100% { opacity:0}
+}
+
+p.text2{
+	 text-shadow: #000 1px 0 0, #000 0 1px 0, #000 -1px 0 0, #000 0 -1px 0;
+	font-family: ysbth;
+	color: orange;
+	font-size: 300%;
+	opacity:0;
+	top: 150px;
+	left: 100px;
+	position: absolute;
+	animation: textFadeIn 5s;
+	animation-delay:4s;
+}
+
+p.text3{
+	text-shadow: #000 1px 0 0, #000 0 1px 0, #000 -1px 0 0, #000 0 -1px 0;
+	font-family: ysbth;
+	color: orange;
+	font-size: 300%;
+	opacity:0;
+	top: 200px;
+	left: 100px;
+	position: absolute;
+	animation: textFadeIn 5s;
+	animation-delay:6s;
+}
+
+p.text4{
+	text-shadow: #000 1px 0 0, #000 0 1px 0, #000 -1px 0 0, #000 0 -1px 0;
+	font-family: ysbth;
+	color: orange;
+	font-size: 300%;
+	opacity:0;
+	top: 250px;
+	left: 100px;
+	position: absolute;
+	animation: textFadeIn 5s;
+	animation-delay:8s;
+}
+
+p.text5{
+	text-shadow: #000 1px 0 0, #000 0 1px 0, #000 -1px 0 0, #000 0 -1px 0;
+	font-family: ysbth;
+	color: orange;
+	font-size: 300%;
+	opacity:0;
+	top: 300px;
+	left: 100px;
+	position: absolute;
+	animation: textFadeIn 5s;
+	animation-delay:10s;
+}
+
+p.text6{
+	text-shadow: #000 1px 0 0, #000 0 1px 0, #000 -1px 0 0, #000 0 -1px 0;
+	font-family: ysbth;
+	color: orange;
+	font-size: 300%;
+	opacity:0;
+	top: 350px;
+	left: 100px;
+	position: absolute;
+	animation: textFadeIn 5s;
+	animation-delay:12s;
+}
+p.text7{
+	text-shadow: #000 1px 0 0, #000 0 1px 0, #000 -1px 0 0, #000 0 -1px 0;
+	font-family: ysbth;
+	color: orange;
+	font-size: 300%;
+	opacity:0;
+	top: 100px;
+	left: 100px;
+	position: absolute;
+	animation: textFadeIn 5s;
+	animation-delay:18s;
+}
+p.text8{
+	 text-shadow: #000 1px 0 0, #000 0 1px 0, #000 -1px 0 0, #000 0 -1px 0;
+	font-family: ysbth;
+	color: orange;
+	font-size: 300%;
+	opacity:0;
+	top: 100px;
+	left: 100px;
+	position: absolute;
+	animation: textFadeIn 5s;
+	animation-delay:24s;
+}
+p.text9{
+	 text-shadow: #000 1px 0 0, #000 0 1px 0, #000 -1px 0 0, #000 0 -1px 0;
+	font-family: ysbth;
+	color: orange;
+	font-size: 300%;
+	opacity:0;
+	top: 100px;
+	left: 100px;
+	position: absolute;
+	animation: textFadeIn 5s;
+	animation-delay:30s;
+}
