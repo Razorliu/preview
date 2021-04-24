@@ -45,7 +45,7 @@ p.text1{
 	opacity:0;
 	top: 100px;
 	left: 100px;
-	min-width: 1000px;
+	min-width: 1800px;
 	position: absolute;
 	animation: textFadeIn 5s;
 	animation-delay:2s;
@@ -67,7 +67,7 @@ p.text2{
 	opacity:0;
 	top: 150px;
 	left: 100px;
-	min-width: 1000px;
+	min-width: 1800px;
 	position: absolute;
 	animation: textFadeIn 5s;
 	animation-delay:4s;
@@ -81,7 +81,7 @@ p.text3{
 	opacity:0;
 	top: 200px;
 	left: 100px;
-	min-width: 1000px;
+	min-width: 1800px;
 	position: absolute;
 	animation: textFadeIn 5s;
 	animation-delay:6s;
@@ -95,7 +95,7 @@ p.text4{
 	opacity:0;
 	top: 250px;
 	left: 100px;
-	min-width: 1000px;
+	min-width: 1800px;
 	position: absolute;
 	animation: textFadeIn 5s;
 	animation-delay:8s;
@@ -109,7 +109,7 @@ p.text5{
 	opacity:0;
 	top: 300px;
 	left: 100px;
-	min-width: 1000px;
+	min-width: 1800px;
 	position: absolute;
 	animation: textFadeIn 5s;
 	animation-delay:10s;
@@ -123,7 +123,7 @@ p.text6{
 	opacity:0;
 	top: 350px;
 	left: 100px;
-	min-width: 1000px;
+	min-width: 1800px;
 	position: absolute;
 	animation: textFadeIn 5s;
 	animation-delay:12s;
@@ -136,6 +136,7 @@ p.text7{
 	opacity:0;
 	top: 100px;
 	left: 100px;
+	min-width: 1800px;
 	position: absolute;
 	animation: textFadeIn 5s;
 	animation-delay:18s;
@@ -148,6 +149,7 @@ p.text8{
 	opacity:0;
 	top: 800px;
 	left: 100px;
+	min-width: 1800px;
 	position: absolute;
 	animation: textFadeIn 5s;
 	animation-delay:24s;
@@ -160,6 +162,7 @@ p.text9{
 	opacity:0;
 	top: 800px;
 	left: 100px;
+	min-width: 1800px;
 	position: absolute;
 	animation: textFadeIn 5s;
 	animation-delay:30s;
