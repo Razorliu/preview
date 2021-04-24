@@ -6,7 +6,7 @@
 }
 
 p.text1{
-	 text-shadow: #000 1px 0 0, #000 0 1px 0, #000 -1px 0 0, #000 0 -1px 0;
+	text-shadow: #fff 1px 0 0, #fff 0 1px 0, #fff -1px 0 0, #fff 0 -1px 0;
 	font-family: ysbth;
 	color: orange;
 	max-width:800px;
@@ -27,7 +27,7 @@ p.text1{
 }
 
 p.text2{
-	 text-shadow: #000 1px 0 0, #000 0 1px 0, #000 -1px 0 0, #000 0 -1px 0;
+	text-shadow: #fff 1px 0 0, #fff 0 1px 0, #fff -1px 0 0, #fff 0 -1px 0;
 	font-family: ysbth;
 	color: orange;
 	max-width:800px;
@@ -41,7 +41,7 @@ p.text2{
 }
 
 p.text3{
-	 text-shadow: #000 1px 0 0, #000 0 1px 0, #000 -1px 0 0, #000 0 -1px 0;
+	text-shadow: #fff 1px 0 0, #fff 0 1px 0, #fff -1px 0 0, #fff 0 -1px 0;
 	font-family: ysbth;
 	color: orange;
 	max-width:800px;

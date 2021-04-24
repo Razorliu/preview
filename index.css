@@ -17,24 +17,21 @@ div.title {
 	100% { opacity:1; }
 }
 
-div.percentage {
+img.per1 {
 	text-align:center;
 	position: absolute;
 	top: 600px;
-	left: 1450px;
-  width: 0px;
-  height: 50px;
-
-  background: yellow;
+	left: 1500px;
+	opacity:0;
   animation: mymove 10s ;
 }
 
 @keyframes mymove {
-	0%   {top: 600px; background: yellow; width: 0px;opacity:0; }
-	40%   {top: 600px; background: yellow; width: 0px;opacity:0; }
-	50%   {top: 600px; background: yellow; width: 0px;opacity:1; }
-	90%   {top: 600px; background: red; width: 700px;opacity:1; }
-	100% {top: 600px; background: red; width: 700px;opacity:0;}
+	0%   {top: 600px;  width: 0px;opacity:0; }
+	40%   {top: 600px;  width: 0px;opacity:0; }
+	50%   {top: 600px;  width: 0px;opacity:1; }
+	90%   {top: 600px;  width: 700px;opacity:1; }
+	100% {top: 600px;  width: 700px;opacity:0;}
 }
 
 

@@ -4,15 +4,18 @@
 	font-family: ysbth;
     src: url('fonts/youshebiaotihei.ttf');
 }
+div.all{
+	margin: auto;
+}
 p.text1{
-	 text-shadow: #000 1px 0 0, #000 0 1px 0, #000 -1px 0 0, #000 0 -1px 0;
+	text-shadow: #fff 1px 0 0, #fff 0 1px 0, #fff -1px 0 0, #fff 0 -1px 0;
 	font-family: ysbth;
 	color: orange;
-	max-width:800px;
+	max-width:1300px;
 	font-size: 300%;
 	opacity:0;
 	top: 100px;
-	left: 100px;
+	left: 200px;
 	position: absolute;
 	animation: textFadeIn 5s;
 	animation-delay:1s;
@@ -26,16 +29,25 @@ p.text1{
 }
 
 p.text2{
-	 text-shadow: #000 1px 0 0, #000 0 1px 0, #000 -1px 0 0, #000 0 -1px 0;
+	text-shadow: #fff 1px 0 0, #fff 0 1px 0, #fff -1px 0 0, #fff 0 -1px 0;
 	font-family: ysbth;
 	color: orange;
-	max-width:800px;
+	max-width:1300px;
 	font-size: 300%;
 	opacity:0;
 	top: 100px;
-	left: 100px;
+	left: 200px;
 	position: absolute;
 	animation: textFadeIn 5s;
 	animation-delay:6s;
 }
 
+img.bg{
+	animation: blur 5s;
+	filter: blur(10px);
+}
+
+@keyframes blur {
+	0% {filter: blur(0px);}
+	100% {filter: blur(10px);}
+}

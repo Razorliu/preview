@@ -2,19 +2,10 @@
 /* CSS Document */
 
 
-	
-div.bg
-{
-	width: 1024px;
-	height: 768px;
-	border-style: dashed;
-}
-
 div.brg {
-		position: absolute;
-	top: 0px;
-	left: 0px;
-	border: 0px ;
+margin:0 auto;
+
+
 	z-index: -1;
 }
 div.satellite{
@@ -38,45 +29,6 @@ div.satellite{
 	100% { transform: translate(-2000px, 0px) rotate(0deg); }
 }
 
-div.elephants{
-	position: absolute;
-	top: 620px;
-	left: 2200px;
-	z-index: 1;
-	animation: eleMove 5.0s;
-	animation-fill-mode: forwards;
-	animation-delay: 44s;
-	animation-timing-function: linear;
-}
-
-@keyframes eleMove {
-	0% { transform: rotate(0deg); }
-	20% { transform: translate(-1000px, 0px); }
-	40% { transform: translate(-1200px, 0px); }
-	60% { transform: translate(-1400px, 0px); }
-	80% { transform: translate(-1600px, 0px); }
-	100% { transform: translate(-3500px, 0px); }
-}
-
-div.truck{
-	position: absolute;
-	top: 765px;
-	left: 2200px;
-	z-index: 1;
-	animation: truckMove 5.0s;
-	animation-fill-mode: forwards;
-	animation-delay: 50s;
-	animation-timing-function: linear;
-}
-
-@keyframes truckMove {
-	0% { transform: rotate(0deg); }
-	20% { transform: translate(-1000px, 0px); }
-	40% { transform: translate(-1200px, 0px); }
-	60% { transform: translate(-1400px, 0px); }
-	80% { transform: translate(-1600px, 0px); }
-	100% { transform: translate(-3500px, 0px); }
-}
 
 
 @font-face {
@@ -86,7 +38,7 @@ div.truck{
 
 
 p.text1{
-	 text-shadow: #000 1px 0 0, #000 0 1px 0, #000 -1px 0 0, #000 0 -1px 0;
+	text-shadow: #fff 1px 0 0, #fff 0 1px 0, #fff -1px 0 0, #fff 0 -1px 0;
 	font-family: ysbth;
 	font-size: 300%;
 	color: orange;
@@ -107,7 +59,7 @@ p.text1{
 }
 
 p.text2{
-	 text-shadow: #000 1px 0 0, #000 0 1px 0, #000 -1px 0 0, #000 0 -1px 0;
+	text-shadow: #fff 1px 0 0, #fff 0 1px 0, #fff -1px 0 0, #fff 0 -1px 0;
 	font-family: ysbth;
 	color: orange;
 	font-size: 300%;
@@ -120,7 +72,7 @@ p.text2{
 }
 
 p.text3{
-	text-shadow: #000 1px 0 0, #000 0 1px 0, #000 -1px 0 0, #000 0 -1px 0;
+	text-shadow: #fff 1px 0 0, #fff 0 1px 0, #fff -1px 0 0, #fff 0 -1px 0;
 	font-family: ysbth;
 	color: orange;
 	font-size: 300%;
@@ -133,7 +85,7 @@ p.text3{
 }
 
 p.text4{
-	text-shadow: #000 1px 0 0, #000 0 1px 0, #000 -1px 0 0, #000 0 -1px 0;
+	text-shadow: #fff 1px 0 0, #fff 0 1px 0, #fff -1px 0 0, #fff 0 -1px 0;
 	font-family: ysbth;
 	color: orange;
 	font-size: 300%;
@@ -146,7 +98,7 @@ p.text4{
 }
 
 p.text5{
-	text-shadow: #000 1px 0 0, #000 0 1px 0, #000 -1px 0 0, #000 0 -1px 0;
+	text-shadow: #fff 1px 0 0, #fff 0 1px 0, #fff -1px 0 0, #fff 0 -1px 0;
 	font-family: ysbth;
 	color: orange;
 	font-size: 300%;
@@ -159,7 +111,7 @@ p.text5{
 }
 
 p.text6{
-	text-shadow: #000 1px 0 0, #000 0 1px 0, #000 -1px 0 0, #000 0 -1px 0;
+	text-shadow: #fff 1px 0 0, #fff 0 1px 0, #fff -1px 0 0, #fff 0 -1px 0;
 	font-family: ysbth;
 	color: orange;
 	font-size: 300%;
@@ -171,7 +123,7 @@ p.text6{
 	animation-delay:12s;
 }
 p.text7{
-	text-shadow: #000 1px 0 0, #000 0 1px 0, #000 -1px 0 0, #000 0 -1px 0;
+	text-shadow: #fff 1px 0 0, #fff 0 1px 0, #fff -1px 0 0, #fff 0 -1px 0;
 	font-family: ysbth;
 	color: orange;
 	font-size: 300%;
@@ -183,24 +135,24 @@ p.text7{
 	animation-delay:18s;
 }
 p.text8{
-	 text-shadow: #000 1px 0 0, #000 0 1px 0, #000 -1px 0 0, #000 0 -1px 0;
+	text-shadow: #fff 1px 0 0, #fff 0 1px 0, #fff -1px 0 0, #fff 0 -1px 0;
 	font-family: ysbth;
 	color: orange;
 	font-size: 300%;
 	opacity:0;
-	top: 100px;
+	top: 800px;
 	left: 100px;
 	position: absolute;
 	animation: textFadeIn 5s;
 	animation-delay:24s;
 }
 p.text9{
-	 text-shadow: #000 1px 0 0, #000 0 1px 0, #000 -1px 0 0, #000 0 -1px 0;
+	text-shadow: #fff 1px 0 0, #fff 0 1px 0, #fff -1px 0 0, #fff 0 -1px 0;
 	font-family: ysbth;
 	color: orange;
 	font-size: 300%;
 	opacity:0;
-	top: 100px;
+	top: 800px;
 	left: 100px;
 	position: absolute;
 	animation: textFadeIn 5s;

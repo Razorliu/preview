@@ -15,7 +15,7 @@ var y3 = 642;
 var x4 = 2000;
 var y4 = 350;
 var x5 = 5500;
-var y5 = 50;
+var y5 = 80;
 
 var acc = Math.ceil(-x3/80);
 var decc = 0;
@@ -34,11 +34,10 @@ function animate()
 {
 	ctx.clearRect(0, 0, canvas.width, canvas.height);  // clear canvas
 	ctx.drawImage(imgTag2, x2, y2);
-	ctx.drawImage(imgTag4, x4, y4); 
-	ctx.drawImage(imgTag5, x5, y5); 
 	ctx.drawImage(imgTag, x, y);               // draw image at current position
 	ctx.drawImage(imgTag3, x3, y3);  
-
+	ctx.drawImage(imgTag4, x4, y4); 
+	ctx.drawImage(imgTag5, x5, y5); 
 	x -= 32;
 	x2 -= 12;
 	x3 += acc;
@@ -47,11 +46,11 @@ function animate()
 	{
 		x=0;
 	}
-	if (x2 <= -14500) 
+	if (x2 <= -14000) 
 	{
-		decc=(-14500-x2)/10;
+		decc=(-14000-x2)/20;
 		x+=decc;
-		x2+=2;
+		x2+=decc*12/32;
 		acc = (-200-x3)/40;
 	}
 

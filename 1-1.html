@@ -3,10 +3,12 @@
 <head>
 <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0"/>
 <link rel="stylesheet" type="text/css" href="1-1.css">
-<title>无标题文档</title>
+
+<title>中老友谊</title>
 </head>
 
 <body>
+
 	<div class="brg">
 		<canvas id="bridge" width="1920" height="1080"></canvas>
 		<script type="text/javascript" src="1-1.js"></script>
@@ -25,5 +27,14 @@
 	<p class="text7">中老合作的“老挝一号”卫星，2015年11月21日发射升空</p>
 	<p class="text8">中老边境“生物廊道”让野象爱上“跨境游”</p>
 	<p class="text9">便捷的物流和通关让中国消费者吃上新鲜老挝水果</p>
+	
+	<audio id="sound" >
+		<source src="sound/elephant.mp3" type="audio/mp3" />
+	</audio>
+	<script type="text/javascript">
+		setTimeout(function(){
+  		document.getElementById("sound").play();
+		},22000);
+	</script>
 </body>
 </html>

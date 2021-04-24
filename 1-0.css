@@ -1,4 +1,9 @@
 @charset "utf-8";
+
+@font-face {
+	font-family: ysbth;
+    src: url('fonts/youshebiaotihei.ttf');
+}
 div.content { 
 	width:100%;
 	text-align: center;
@@ -53,7 +58,7 @@ jindahead {
 	height: 120px;
 	border: 0px ;	
 }
-a.guide {
+div.board {
 	position: absolute;
 	top: 680px;
 	left: 1250px;
@@ -104,4 +109,15 @@ jindabody {
 	width: 142px;
 	height: 17px;
 	border: 0px ;	
+}
+
+p.text1{
+	text-shadow: #fff 1px 0 0, #fff 0 1px 0, #fff -1px 0 0, #fff 0 -1px 0;
+	font-family: ysbth;
+	font-size: 300%;
+	color: orange;
+	top: 650px;
+	left: 1300px;
+	position: absolute;
+	z-index: 2;
 }

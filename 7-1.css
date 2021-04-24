@@ -70,8 +70,18 @@ a.link2b:hover{
 div.list{
 	text-align:center;
 	position: absolute;
-	top: 900px;
-	left: 531px;
+	top: 800px;
+	left: 31px;
+  width: 0px;
+  height: 50px;
+  animation: fadein2 5s ;
+}
+
+div.listlao{
+	text-align:center;
+	position: absolute;
+	top: 800px;
+	left: 1051px;
   width: 0px;
   height: 50px;
   animation: fadein2 5s ;

@@ -3,6 +3,7 @@ var imgTag2 = new Image();
 var imgTag3 = new Image();
 var imgTag4 = new Image();
 var imgTag5 = new Image();
+var imgTag6 = new Image();
 
 var canvas = document.getElementById('bridge');
 var ctx = canvas.getContext("2d");
@@ -12,10 +13,12 @@ var x2 = -7000;
 var y2 = 0;
 var x3 = -1888;
 var y3 = 642;
-var x4 = 1000;
-var y4 = 300;
-var x5 = 6500;
-var y5 = 50;
+var x4 = 1300;
+var y4 = 50;
+var x5 = 3800;
+var y5 = 200;
+var x6 = 6500;
+var y6 = 50;
 
 var acc = Math.ceil(-x3/80);
 var decc = 0;
@@ -27,7 +30,8 @@ imgTag.src = "images/bridge.png";   // load image
 imgTag2.src = "images/bg5-1.png"; 
 imgTag3.src = "images/train2.png";
 imgTag4.src = "images/refinery.png";
-imgTag5.src = "images/bank.png";
+imgTag5.src = "images/construction.png";
+imgTag6.src = "images/bank.png";
 
 
 function animate()
@@ -36,11 +40,13 @@ function animate()
 	ctx.drawImage(imgTag2, x2, y2);
 	ctx.drawImage(imgTag4, x4, y4); 
 	ctx.drawImage(imgTag5, x5, y5); 
+	ctx.drawImage(imgTag6, x6, y6); 
 	ctx.drawImage(imgTag, x, y);               // draw image at current position
 	ctx.drawImage(imgTag3, x3, y3);  
 
 	x -= 32;
 	x2 -= 6;
+	x5-= 6
 	x3 += acc;
 	acc = (-500-x3)/40;
 	if (x <= -4360) 
@@ -59,9 +65,12 @@ function animate()
 	{
 		x4-=6;	
 	}
+	
+
+	
 	if (x2 <= -9514)
 	{
-		x5-=12;
+		x6-=12;
 	}
 
 

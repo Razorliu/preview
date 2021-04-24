@@ -31,11 +31,10 @@ imgTag5.src = "images/bus.png";
 function animate()
 {
 	ctx.clearRect(0, 0, canvas.width, canvas.height);  // clear canvas
-	ctx.drawImage(imgTag2, x2, y2);
-	ctx.drawImage(imgTag4, x4, y4); 
-	
+	ctx.drawImage(imgTag2, x2, y2); 
 	ctx.drawImage(imgTag, x, y);               // draw image at current position
 	ctx.drawImage(imgTag3, x3, y3);  
+	ctx.drawImage(imgTag4, x4, y4); 
 	ctx.drawImage(imgTag5, x5, y5); 
 
 	x -= 32;

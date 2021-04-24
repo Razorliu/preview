@@ -16,7 +16,7 @@ var x4 = 1500;
 var y4 = 0;
 var x5 = 3500;
 var y5 = 260;
-var x6 = 4500;
+var x6 = -1000;
 var y6 = 250;
 var acc = Math.ceil(-x3/80);
 var decc = 0;
@@ -66,9 +66,9 @@ function animate()
 	{
 		x5-=12;
 	}
-	if (x2 <= -11514)
+	if (x2 <= -12514 && x6<=0)
 	{
-		x6-=12;
+		x6+=12;
 	}
 
 	if(decc<=32) requestAnimationFrame(animate);        // loop
