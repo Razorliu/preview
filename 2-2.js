@@ -70,7 +70,7 @@ function animate()
 		x4-=6;	
 	}
 	
-	if (x2 <=-6014 && play==0)
+	if (x2 <=-7014 && play==0)
 		{play=1;}
 	if(play==1)
 	{
