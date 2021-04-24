@@ -118,6 +118,7 @@ p.text1{
 	color: orange;
 	top: 650px;
 	left: 1300px;
+	min-width: 150px;
 	min-width: 500px;
 	position: absolute;
 	z-index: 2;
