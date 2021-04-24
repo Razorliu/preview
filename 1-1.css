@@ -1,6 +1,10 @@
 @charset "utf-8";
 /* CSS Document */
-
+@media screen and (orientation:portrait){
+     body{
+           transform: rotate(90deg);
+     }
+}
 
 div.brg {
 margin:0 auto;
