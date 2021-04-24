@@ -4,7 +4,6 @@
 @media screen and (orientation:portrait){
      body{
            transform: rotate(90deg);
-		 	zoom:0.4;
      }
 }
 
