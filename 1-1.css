@@ -146,7 +146,7 @@ p.text7{
 	animation-delay:18s;
 	z-index: 1;
 }
-p.text8{
+.text8{
 	text-shadow: #fff 1px 0 0, #fff 0 1px 0, #fff -1px 0 0, #fff 0 -1px 0;
 	font-family: ysbth;
 	color: orange;
@@ -157,9 +157,9 @@ p.text8{
 	min-width: 1800px;
 	position: absolute;
 	animation: textFadeIn 5s;
-	animation-delay:24s;
+	animation-delay:0s;
 }
-p.text9{
+.text9{
 	text-shadow: #fff 1px 0 0, #fff 0 1px 0, #fff -1px 0 0, #fff 0 -1px 0;
 	font-family: ysbth;
 	color: orange;
@@ -170,5 +170,5 @@ p.text9{
 	min-width: 1800px;
 	position: absolute;
 	animation: textFadeIn 5s;
-	animation-delay:30s;
+	animation-delay:0s;
 }

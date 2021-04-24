@@ -17,7 +17,9 @@ var x5 = 2000;
 var y5 = 760;
 var acc = Math.ceil(-x3/80);
 var decc = 0;
-setTimeout("javascript:location.href='2-1.html'", 41000);
+var play=0;
+var play2=0;
+//setTimeout("javascript:location.href='2-1.html'", 41000);
 
 imgTag.onload = animate;
 imgTag.src = "images/bridge.png";   // load image
@@ -55,12 +57,33 @@ function animate()
 	{
 		x4-=8;	
 	}
+	if (x2 <=-7714 && play==0)
+		{play=1;}
+	if(play==1)
+	{
+		var element = document.getElementById("t8");
+		element.classList.add("text8");
+		setTimeout(function(){
+			document.getElementById("sound").play();
+		},200);
+		play++;
+	}
+	
 	if (x2 <= -8714)
 	{
 		x5-=8;
 	}
+	if (x2 <=-8714 && play2==0)
+		{play2=1;}
+	if(play2==1)
+	{
+		var element2 = document.getElementById("t9");
+		element2.classList.add("text9");
 
-
+		play2++;
+	}
+	if(decc>=32){setTimeout("javascript:location.href='2-1.html'", 1000);}
+		
 	if(decc<=32) requestAnimationFrame(animate);        // loop
 
 }
