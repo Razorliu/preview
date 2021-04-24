@@ -1,11 +1,10 @@
 @charset "utf-8";
 /* CSS Document */
-body{
-	zoom:0.4;
-}
+
 @media screen and (orientation:portrait){
      body{
            transform: rotate(90deg);
+		 	zoom:0.4;
      }
 }
 
