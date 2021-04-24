@@ -4,12 +4,11 @@
 @media screen and (orientation:portrait){
      body{
            transform: rotate(90deg);
-		 zoom:0.5;
      }
 }
 
 body{
-	zoom:0.5;
+	zoom:0.35;
 }
 div.title {
 	text-align:center;
