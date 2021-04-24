@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0"/>
 <link rel="stylesheet" type="text/css" href="8-1.css">
+
 <title>中老友谊</title>
 </head>
 
@@ -12,9 +13,47 @@
 	</div>
 	<div class="comment"><img src="images/comment.png" width="711" height="201" alt=""/></div>
 <div class="txt">
-	<textarea class="cmt" rows="10" cols="80">laowo daisuki</textarea>
-	<input type="submit">
+	<textarea class="cmt" rows="5" cols="80">laowo daisuki</textarea>
+		<!-- 打开弹窗按钮 -->
+	<button class="btn" id="myBtn">寄语并获取车票</button>
+
+<!-- 弹窗 -->
+	<div id="myModal" class="modal">
+
+  <!-- 弹窗内容 -->
+		<div class="modal-content">
+    	<span class="close">&times;</span>
+    	<img src="images/ticket.png" width="854" height="533" alt=""/>  
+	</div>
+	<script type="text/javascript" src="8-1.js"></script>
+	</div>
 </div>
-	
+<div class="shell">
+    <div id="div1">
+  <p>祝愿老中传统友谊和在“四好”方针基础上的全面战略伙伴关系长期稳固，祝愿老中－中老命运共同体万古长存。 ——老挝外交部部长沙伦赛</p>
+  <p>老中将共同庆祝建交60周年，继续加强合作，造福我们的人民，并为本土和世界的繁荣与发展作出贡献。 ——老挝驻华大使坎葆·恩塔万</p>
+  <p>我坚信，我们两国的友谊一定会继往开来，不断向前迈进。 ——老中合作委员会副主席肯通·西苏翁</p>
+  <p>老挝政府正在加快制定老中铁路沿线旅游开发计划，让铁路沿线的人们共享旅游业带来的红利。 ——老挝新闻文化旅游部副部长温团·考潘</p>
+  <p>希望老中两党两国、人民群众继续维持稳固好老中传统友谊，并将双方合作成果不断深化，为两国谋繁荣、为两国人民谋幸福。 ——老挝前政</p>
+  <p>中老建交60周年，中老友好关系和合作将开启历久弥新、充满活力的新篇章。 ——中国—东盟商务理事会执行理事长许宁宁</p>
+  <p>在老挝种出高产高质的中国玉米。 ——云南省著名玉米专家番兴明</p>
+  <p>中老始终相互理解、相互支持、相互帮助，树立起国际抗疫合作的新典范。 ——云南省社会科学院老挝研究所副所长孔志坚</p>
+	<p> 中老员工在抗击疫情的日子里朝夕相伴，从同事变成朋友，又从朋友变成亲人。 ——南方电网云南国际公司老中电力投资公司员工杨博</p>
+	 <p>随着中老合作不断深化，“汉语热”在老挝兴起。 ——万象寮都公学董事长林俊雄</p>
+	<p> 跨境医疗合作让老挝人民受益。 ——西双版纳州人民医院副院长舒云</p>
+	 <p>湄公河航道安全，是沿岸各国百姓共同的愿望。 ——云南省公安厅水上巡逻总队53102艇操舵民警谭建华</p>
+	 <p>我在昆明度过了两年难忘的时光。 ——2020年度老挝小姐冠军金妮</p>
+	 <p>为中国培训老语人才，促进中老交流。 ——中国第一本老挝语-汉语词典的编撰者黄冰</p>
+	 <p>我在中国吴桥杂技艺术学校学到很多知识和技巧。 ——老挝国家杂技团演员哈萨迪</p>
+	 <p>老中两国一定会战胜疫情，老中跨境旅游会迎来美好的明天。 ——老挝旅游行业从业者苏力</p>
+	 <p>推动中老命运共同体建设走深走实，更好造福两国人民。 ——中国驻老挝大使姜再冬</p>
+    </div>
+</div>
 </body>
+	
+<script>
+    var c,_=Function;
+    with(o=document.getElementById("div1")){ innerHTML+=innerHTML; onmouseover=_("c=1"); onmouseout=_("c=0");}
+    (F=_("if(#%18||!c)#++,#%=o.scrollHeight>>1;setTimeout(F,#%36?10:1000);".replace(/#/g,"o.scrollTop")))();
+</script>
 </html>
