@@ -172,3 +172,10 @@ p.text7{
 	animation: textFadeIn 5s;
 	animation-delay:0s;
 }
+
+.void{
+		opacity:0;
+	position: absolute;
+	top:0px;
+	left: 0px;
+}

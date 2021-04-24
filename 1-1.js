@@ -62,9 +62,10 @@ function animate()
 	if(play==1)
 	{
 		var element = document.getElementById("t8");
+		element.classList.remove("void");
 		element.classList.add("text8");
 		setTimeout(function(){
-			document.getElementById("sound").play();
+		document.getElementById("sound").play();
 		},200);
 		play++;
 	}
@@ -78,6 +79,7 @@ function animate()
 	if(play2==1)
 	{
 		var element2 = document.getElementById("t9");
+		element2.classList.remove("void");
 		element2.classList.add("text9");
 
 		play2++;

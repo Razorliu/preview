@@ -9,7 +9,7 @@
 	font-family: ysbth;
     src: url('fonts/youshebiaotihei.ttf');
 }
-p.text1{
+.text1{
 	text-shadow: #fff 1px 0 0, #fff 0 1px 0, #fff -1px 0 0, #fff 0 -1px 0;
 	font-family: ysbth;
 	color: orange;
@@ -20,7 +20,7 @@ p.text1{
 	left: 100px;
 	position: absolute;
 	animation: textFadeIn 5s;
-	animation-delay:2s;
+	animation-delay:0s;
 }
 
 @keyframes textFadeIn {
@@ -30,7 +30,7 @@ p.text1{
 	100% { opacity:0}
 }
 
-p.text2{
+.text2{
 	text-shadow: #fff 1px 0 0, #fff 0 1px 0, #fff -1px 0 0, #fff 0 -1px 0;
 	font-family: ysbth;
 	color: orange;
@@ -41,10 +41,10 @@ p.text2{
 	left: 100px;
 	position: absolute;
 	animation: textFadeIn 5s;
-	animation-delay:8s;
+	animation-delay:0s;
 }
 
-p.text3{
+.text3{
 	text-shadow: #fff 1px 0 0, #fff 0 1px 0, #fff -1px 0 0, #fff 0 -1px 0;
 	font-family: ysbth;
 	color: orange;
@@ -55,5 +55,13 @@ p.text3{
 	left: 100px;
 	position: absolute;
 	animation: textFadeIn 5s;
-	animation-delay:14s;
+	animation-delay:0s;
 }
+
+.void{
+	opacity:0;
+	position: absolute;
+	top:0px;
+	left: 0px;
+}
+

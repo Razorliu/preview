@@ -17,13 +17,14 @@ var x4 = 1300;
 var y4 = 50;
 var x5 = 3800;
 var y5 = 200;
-var x6 = 6500;
+var x6 = 2000;
 var y6 = 50;
 
 var acc = Math.ceil(-x3/80);
 var decc = 0;
-
-setTimeout("javascript:location.href='6-1.html'", 25000);
+var play=0;
+var play2=0;
+var play3=0;
 
 imgTag.onload = animate;
 imgTag.src = "images/bridge.png";   // load image
@@ -65,15 +66,41 @@ function animate()
 	{
 		x4-=6;	
 	}
-	
-
-	
-	if (x2 <= -9514)
+	if (x2 <=-514 && play==0)
+		{play=1;}
+	if(play==1)
 	{
-		x6-=12;
+		var element = document.getElementById("t1");
+		element.classList.remove("void");
+		element.classList.add("text1");
+		play++;
 	}
 
-
+	if (x2 <=-9014 && play2==0)
+		{play2=1;}
+	if(play2==1)
+	{
+		var element2 = document.getElementById("t2");
+		element2.classList.remove("void");
+		element2.classList.add("text2");
+		play2++;
+	}
+	
+	
+	if (x2 <= -12514)
+	{
+		x6-=6;
+	}
+	if (x2 <=-12514 && play3==0)
+		{play3=1;}
+	if(play3==1)
+	{
+		var element3 = document.getElementById("t3");
+		element3.classList.remove("void");
+		element3.classList.add("text3");
+		play3++;
+	}
+	if(decc>=32){setTimeout("javascript:location.href='6-1.html'", 1000);}
 	if(decc<=32) requestAnimationFrame(animate);        // loop
 
 }
