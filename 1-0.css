@@ -8,16 +8,9 @@
 	font-family: ysbth;
     src: url('fonts/youshebiaotihei.ttf');
 }
-div.content { 
-	width:100%;
-	text-align: center;
-	margin:0 auto;
-	overflow: hidden;
-		object-fit: cover;
-}
+
 div.bg {
-	text-align: center;
-	margin:0 auto;
+
 	position: absolute;
 
 	width: 1693px;
