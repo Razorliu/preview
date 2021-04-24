@@ -17,7 +17,7 @@ var x5 = 2000;
 var y5 = 760;
 var acc = Math.ceil(-x3/80);
 var decc = 0;
-setTimeout("javascript:location.href='2-1.html'", 42000);
+setTimeout("javascript:location.href='2-1.html'", 41000);
 
 imgTag.onload = animate;
 imgTag.src = "images/bridge.png";   // load image

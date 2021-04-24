@@ -117,8 +117,8 @@ p.text1{
 	font-size: 300%;
 	color: orange;
 	top: 650px;
-	left: 1300px;
-	min-width: 150px;
+	left: 1270px;
+	min-width: 200px;
 	position: absolute;
 	z-index: 2;
 }
