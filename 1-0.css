@@ -2,8 +2,14 @@
 @media screen and (orientation:portrait){
 body{
 	transform: rotate(90deg);
+	zoom:0.7
+	}
 }
-}
+body{
+	zoom:0.7
+} 
+
+
 @font-face {
 	font-family: ysbth;
     src: url('fonts/youshebiaotihei.ttf');
