@@ -10,6 +10,10 @@ var span = document.querySelector('.close');
 // 点击按钮打开弹窗
 btn.onclick = function() {
     modal.style.display = "block";
+	var d = new Date(2021,3,25)
+	var e = new Date()
+
+	document.getElementById('count').innerHTML = Math.ceil(81234+24*(e.getTime()-d.getTime())/(1000*3600));
 }
 
  
