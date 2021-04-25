@@ -25,7 +25,7 @@ var play2=0;
 var play3=0;
 
 
-imgTag.onload = animate;
+imgTag2.onload = animate;
 imgTag.src = "images/bridge.png";   // load image
 imgTag2.src = "images/bg4-1.png"; 
 imgTag3.src = "images/train2.png";

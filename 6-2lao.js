@@ -23,7 +23,7 @@ var play2=0;
 
 
 
-imgTag.onload = animate;
+imgTag2.onload = animate;
 imgTag.src = "images/bridge.png";   // load image
 imgTag2.src = "images/bg6-1.png"; 
 imgTag3.src = "images/train2.png";
@@ -84,7 +84,7 @@ function animate()
 		play2++;
 	}
 	
-	if(x2 <= -14500){setTimeout("javascript:location.href='6-3lao.html'", 1000);}
+	if(Math.floor(decc*32/20)>32){setTimeout("javascript:location.href='6-3lao.html'", 3000);}
 	if(decc<=32) requestAnimationFrame(animate);        // loop
 
 }
