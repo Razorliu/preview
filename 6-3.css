@@ -16,7 +16,7 @@ div.all{
 	text-shadow: #fff 1px 0 0, #fff 0 1px 0, #fff -1px 0 0, #fff 0 -1px 0;
 	font-family: ysbth;
 	color: orange;
-
+	max-width: 1200px;
 	font-size: 300%;
 	opacity:0;
 	top: 100px;
@@ -37,7 +37,7 @@ div.all{
 	text-shadow: #fff 1px 0 0, #fff 0 1px 0, #fff -1px 0 0, #fff 0 -1px 0;
 	font-family: ysbth;
 	color: orange;
-
+	max-width: 1200px;
 	font-size: 300%;
 	opacity:0;
 	top: 100px;
