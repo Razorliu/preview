@@ -21,7 +21,7 @@ var play=0;
 var play2=0;
 //setTimeout("javascript:location.href='2-1.html'", 41000);
 
-imgTag.onload = animate;
+imgTag2.onload = animate;
 imgTag.src = "images/bridge.png";   // load image
 imgTag2.src = "images/bg1-2.png"; 
 imgTag3.src = "images/train2.png";
