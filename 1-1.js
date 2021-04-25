@@ -84,7 +84,7 @@ function animate()
 
 		play2++;
 	}
-	if(decc>=32){setTimeout("javascript:location.href='2-1lao.html'", 1000);}
+	if(decc>=32){setTimeout("javascript:location.href='2-1.html'", 1000);}
 		
 	if(decc<=32) requestAnimationFrame(animate);        // loop
 
