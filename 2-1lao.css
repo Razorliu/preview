@@ -1,16 +1,13 @@
 @charset "utf-8";
 /* CSS Document */
-@media screen and (orientation:portrait){
-     body{
-           transform: rotate(90deg);
-     }
-}
 @font-face {
 	font-family: ysbth;
     src: url('fonts/youshebiaotihei.ttf');
 }
-div.all{
-	margin: auto;
+@media screen and (orientation:portrait){
+     body{
+           transform: rotate(90deg);
+     }
 }
 .text1{
 	text-shadow: #fff 1px 0 0, #fff 0 1px 0, #fff -1px 0 0, #fff 0 -1px 0;
@@ -20,10 +17,10 @@ div.all{
 	font-size: 300%;
 	opacity:0;
 	top: 100px;
-	left: 200px;
+	left: 100px;
 	position: absolute;
 	animation: textFadeIn 5s;
-	animation-delay:1s;
+	animation-delay:2s;
 }
 
 @keyframes textFadeIn {
@@ -41,18 +38,22 @@ div.all{
 	font-size: 300%;
 	opacity:0;
 	top: 100px;
-	left: 200px;
+	left: 100px;
 	position: absolute;
 	animation: textFadeIn 5s;
-	animation-delay:6s;
+	animation-delay:8s;
 }
 
-img.bg{
-	animation: blur 5s;
-	filter: blur(10px);
-}
+.text3{
+	text-shadow: #fff 1px 0 0, #fff 0 1px 0, #fff -1px 0 0, #fff 0 -1px 0;
+		font-family: ysbth;
+	color: orange;
 
-@keyframes blur {
-	0% {filter: blur(0px);}
-	100% {filter: blur(10px);}
+	font-size: 300%;
+	opacity:0;
+	top: 100px;
+	left: 100px;
+	position: absolute;
+	animation: textFadeIn 5s;
+	animation-delay:14s;
 }

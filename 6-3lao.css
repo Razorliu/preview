@@ -12,11 +12,11 @@
 div.all{
 	margin: auto;
 }
-.text1{
+p.text1{
 	text-shadow: #fff 1px 0 0, #fff 0 1px 0, #fff -1px 0 0, #fff 0 -1px 0;
 	font-family: ysbth;
 	color: orange;
-
+	max-width:1300px;
 	font-size: 300%;
 	opacity:0;
 	top: 100px;
@@ -33,11 +33,11 @@ div.all{
 	100% { opacity:0}
 }
 
-.text2{
+p.text2{
 	text-shadow: #fff 1px 0 0, #fff 0 1px 0, #fff -1px 0 0, #fff 0 -1px 0;
 	font-family: ysbth;
 	color: orange;
-
+	max-width:1300px;
 	font-size: 300%;
 	opacity:0;
 	top: 100px;

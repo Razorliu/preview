@@ -18,8 +18,9 @@ var y5 = 760;
 var acc = Math.ceil(-x3/80);
 var decc = 0;
 var play=0;
-var play2=0;
-//setTimeout("javascript:location.href='2-1.html'", 41000);
+var obj=document.getElementById("t9");
+
+setTimeout("javascript:location.href='2-1.html'", 41000);
 
 imgTag.onload = animate;
 imgTag.src = "images/bridge.png";   // load image
@@ -27,7 +28,7 @@ imgTag2.src = "images/bg1-2.png";
 imgTag3.src = "images/train2.png";
 imgTag4.src = "images/elephants.png";
 imgTag5.src = "images/truck.png";
-
+	obj.classList.add("text9");
 function animate()
 {
 	ctx.clearRect(0, 0, canvas.width, canvas.height);  // clear canvas
@@ -36,6 +37,7 @@ function animate()
 	ctx.drawImage(imgTag3, x3, y3); 
 	ctx.drawImage(imgTag4, x4, y4); 
 	ctx.drawImage(imgTag5, x5, y5); 
+
 
 	x -= 32;
 	x2 -= 3;
@@ -53,39 +55,32 @@ function animate()
 		acc = (-200-x3)/40;
 	}
 
-	if (x2 <= -7714) 
+	if (x2 <= -4714) 
 	{
 		x4-=8;	
 	}
-	if (x2 <=-7714 && play==0)
+	if (x2 <=-4714 && play==0)
 		{play=1;}
 	if(play==1)
 	{
-		var element = document.getElementById("t8");
-		element.classList.remove("void");
-		element.classList.add("text8");
+		var element = document.getElementById("t9");
+		element.classList.add("text9");
 		setTimeout(function(){
-		document.getElementById("sound").play();
-		},200);
-		play++;
+			document.getElementById("sound").play();
+		},100);
+		
+	
+
+
+
+			play++;
 	}
+	
 	
 	if (x2 <= -8714)
 	{
 		x5-=8;
 	}
-	if (x2 <=-8714 && play2==0)
-		{play2=1;}
-	if(play2==1)
-	{
-		var element2 = document.getElementById("t9");
-		element2.classList.remove("void");
-		element2.classList.add("text9");
-
-		play2++;
-	}
-	if(decc>=32){setTimeout("javascript:location.href='2-1lao.html'", 1000);}
-		
 	if(decc<=32) requestAnimationFrame(animate);        // loop
 
 }

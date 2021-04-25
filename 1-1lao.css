@@ -41,7 +41,7 @@ div.satellite{
 }
 
 
-.text1{
+p.text1{
 	text-shadow: #fff 1px 0 0, #fff 0 1px 0, #fff -1px 0 0, #fff 0 -1px 0;
 	font-family: ysbth;
 	font-size: 300%;
@@ -49,7 +49,7 @@ div.satellite{
 	opacity:0;
 	top: 100px;
 	left: 100px;
-	min-width: 1800px;
+
 	position: absolute;
 	animation: textFadeIn 5s;
 	animation-delay:2s;
@@ -63,7 +63,7 @@ div.satellite{
 	100% { opacity:0}
 }
 
-.text2{
+p.text2{
 	text-shadow: #fff 1px 0 0, #fff 0 1px 0, #fff -1px 0 0, #fff 0 -1px 0;
 	font-family: ysbth;
 	color: orange;
@@ -71,13 +71,13 @@ div.satellite{
 	opacity:0;
 	top: 150px;
 	left: 100px;
-	min-width: 1800px;
+
 	position: absolute;
 	animation: textFadeIn 5s;
 	animation-delay:4s;
 }
 
-.text3{
+p.text3{
 	text-shadow: #fff 1px 0 0, #fff 0 1px 0, #fff -1px 0 0, #fff 0 -1px 0;
 	font-family: ysbth;
 	color: orange;
@@ -85,13 +85,13 @@ div.satellite{
 	opacity:0;
 	top: 200px;
 	left: 100px;
-	min-width: 1800px;
+
 	position: absolute;
 	animation: textFadeIn 5s;
 	animation-delay:6s;
 }
 
-.text4{
+p.text4{
 	text-shadow: #fff 1px 0 0, #fff 0 1px 0, #fff -1px 0 0, #fff 0 -1px 0;
 	font-family: ysbth;
 	color: orange;
@@ -99,13 +99,13 @@ div.satellite{
 	opacity:0;
 	top: 250px;
 	left: 100px;
-	min-width: 1800px;
+
 	position: absolute;
 	animation: textFadeIn 5s;
 	animation-delay:8s;
 }
 
-.text5{
+p.text5{
 	text-shadow: #fff 1px 0 0, #fff 0 1px 0, #fff -1px 0 0, #fff 0 -1px 0;
 	font-family: ysbth;
 	color: orange;
@@ -113,13 +113,13 @@ div.satellite{
 	opacity:0;
 	top: 300px;
 	left: 100px;
-	min-width: 1800px;
+
 	position: absolute;
 	animation: textFadeIn 5s;
 	animation-delay:10s;
 }
 
-.text6{
+p.text6{
 	text-shadow: #fff 1px 0 0, #fff 0 1px 0, #fff -1px 0 0, #fff 0 -1px 0;
 	font-family: ysbth;
 	color: orange;
@@ -127,12 +127,12 @@ div.satellite{
 	opacity:0;
 	top: 350px;
 	left: 100px;
-	min-width: 1800px;
+
 	position: absolute;
 	animation: textFadeIn 5s;
 	animation-delay:12s;
 }
-.text7{
+p.text7{
 	text-shadow: #fff 1px 0 0, #fff 0 1px 0, #fff -1px 0 0, #fff 0 -1px 0;
 	font-family: ysbth;
 	color: orange;
@@ -140,7 +140,7 @@ div.satellite{
 	opacity:0;
 	top: 100px;
 	left: 100px;
-	min-width: 1800px;
+
 	position: absolute;
 	animation: textFadeIn 5s;
 	animation-delay:18s;
@@ -154,7 +154,7 @@ div.satellite{
 	opacity:0;
 	top: 800px;
 	left: 100px;
-	min-width: 1800px;
+
 	position: absolute;
 	animation: textFadeIn 5s;
 	animation-delay:0s;
@@ -167,7 +167,7 @@ div.satellite{
 	opacity:0;
 	top: 800px;
 	left: 100px;
-	min-width: 1800px;
+
 	position: absolute;
 	animation: textFadeIn 5s;
 	animation-delay:0s;

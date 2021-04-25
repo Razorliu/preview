@@ -3,90 +3,89 @@ var imgTag2 = new Image();
 var imgTag3 = new Image();
 var imgTag4 = new Image();
 var imgTag5 = new Image();
+
 var canvas = document.getElementById('bridge');
 var ctx = canvas.getContext("2d");
 var x = 0;
 var y = 724;
-var x2 = -3600;
+var x2 = -7000;
 var y2 = 0;
 var x3 = -1888;
 var y3 = 642;
 var x4 = 2000;
-var y4 = 650;
-var x5 = 2000;
-var y5 = 760;
+var y4 = 350;
+var x5 = 5500;
+var y5 = 80;
 var acc = Math.ceil(-x3/80);
 var decc = 0;
 var play=0;
 var play2=0;
-//setTimeout("javascript:location.href='2-1.html'", 41000);
+
+
 
 imgTag.onload = animate;
 imgTag.src = "images/bridge.png";   // load image
-imgTag2.src = "images/bg1-2.png"; 
+imgTag2.src = "images/bg6-1.png"; 
 imgTag3.src = "images/train2.png";
-imgTag4.src = "images/elephants.png";
-imgTag5.src = "images/truck.png";
+imgTag4.src = "images/saise.png";
+imgTag5.src = "images/light.png";
+
 
 function animate()
 {
 	ctx.clearRect(0, 0, canvas.width, canvas.height);  // clear canvas
 	ctx.drawImage(imgTag2, x2, y2);
 	ctx.drawImage(imgTag, x, y);               // draw image at current position
-	ctx.drawImage(imgTag3, x3, y3); 
+	ctx.drawImage(imgTag3, x3, y3);  
 	ctx.drawImage(imgTag4, x4, y4); 
 	ctx.drawImage(imgTag5, x5, y5); 
-
 	x -= 32;
-	x2 -= 3;
+	x2 -= 12;
 	x3 += acc;
 	acc = (-500-x3)/40;
-	if (x <= -4360) 
+	if (x <= -4360) 	
 	{
 		x=0;
 	}
-	if (x2 <= -9614) 
+	if (x2 <= -14000) 
 	{
-		decc=(-9614-x2)/10;
+		decc=(-14000-x2)/20;
 		x+=decc;
-		x2+=2;
+		x2+=decc*12/32;
 		acc = (-200-x3)/40;
 	}
 
-	if (x2 <= -7714) 
+	if (x2 <= -1514) 
 	{
-		x4-=8;	
+		x4-=12;	
 	}
-	if (x2 <=-7714 && play==0)
+	if (x2 <=-1514 && play==0)
 		{play=1;}
 	if(play==1)
 	{
-		var element = document.getElementById("t8");
+		var element = document.getElementById("t1");
 		element.classList.remove("void");
-		element.classList.add("text8");
-		setTimeout(function(){
-		document.getElementById("sound").play();
-		},200);
+		element.classList.add("text1");
 		play++;
 	}
 	
-	if (x2 <= -8714)
+	if (x2 <= -6514)
 	{
-		x5-=8;
+		x5-=12;
 	}
-	if (x2 <=-8714 && play2==0)
+
+	if (x2 <=-6514 && play2==0)
 		{play2=1;}
 	if(play2==1)
 	{
-		var element2 = document.getElementById("t9");
+		var element2 = document.getElementById("t2");
 		element2.classList.remove("void");
-		element2.classList.add("text9");
-
+		element2.classList.add("text2");
 		play2++;
 	}
-	if(decc>=32){setTimeout("javascript:location.href='2-1lao.html'", 1000);}
-		
+	
+	if(x2 <= -14500){setTimeout("javascript:location.href='6-3lao.html'", 1000);}
 	if(decc<=32) requestAnimationFrame(animate);        // loop
 
 }
-// JavaScript Document
+// JavaScript Document// JavaScript Document
