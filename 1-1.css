@@ -1,25 +1,21 @@
 @charset "utf-8";
 /* CSS Document */
-body{
-	zoom:0.7;
-	text-align: center;
-} 
+
 
 @media screen and (orientation:portrait){
      body{
            transform: rotate(90deg);
-			zoom:0.7;
-			text-align: center;
      }
 }
 
 
 div.brg {
 margin:0 auto;
-
-
+	border:thick;
 	z-index: -1;
 }
+
+
 div.satellite{
 	position: absolute;
 	top: 150px;
@@ -55,10 +51,10 @@ div.satellite{
 	font-size: 300%;
 	color: orange;
 	opacity:0;
-	top: 100px;
+	top: -1000px;
 	left: 100px;
 	min-width: 1800px;
-	position: absolute;
+	position: relative;
 	animation: textFadeIn 5s;
 	animation-delay:2s;
 	
